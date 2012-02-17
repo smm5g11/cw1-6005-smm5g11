@@ -1,20 +1,20 @@
 This work was packaged for Debian by:
 
-    user <smm5g11@soton.ac.uk> on Fri, 17 Feb 2012 15:26:49 -0500
+    Stanislav Michaylov Michaylov <smm5g11@soton.ac.uk> on Fri, 17 Feb 2012 15:26:49 -0500
 
-It was downloaded from:
+It was downloaded (forked) from:
 
-    <url://example.com>
+    https://github.com/info6005/6005_cw1_2012.git
 
 Upstream Author(s):
 
-    <put author's name and email here>
-    <likewise for another author>
+    David Tarrant <davetaz@ecs.soton.ac.uk>
+    University of Southampton, Electronics and Computer Science
 
 Copyright:
 
-    <Copyright (C) YYYY Firstname Lastname>
-    <likewise for another author>
+    Copyright (C) 2012 Stanislav Michaylov Michaylov <smm5g11@soton.ac.uk>
+    University of Southampton, Electronics and Computer Science
 
 License:
 
@@ -36,15 +36,6 @@ Public License version 3 can be found in `/usr/share/common-licenses/GPL-3'.
 
 The Debian packaging is:
 
-    Copyright (C) 2012 user <smm5g11@soton.ac.uk>
-
-# Please chose a license for your packaging work. If the program you package
-# uses a mainstream license, using the same license is the safest choice.
-# Please avoid to pick license terms that are more restrictive than the
-# packaged work, as it may make Debian's contributions unacceptable upstream.
-# If you just want it to be GPL version 3, leave the following line in.
+    Copyright (C) 2012 Stanislav Michaylov Michaylov <smm5g11@soton.ac.uk>
 
 and is licensed under the GPL version 3, see above.
-
-# Please also look if there are files or directories which have a
-# different copyright/license attached and list them here.
