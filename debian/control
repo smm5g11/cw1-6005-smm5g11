@@ -1,13 +1,12 @@
 Source: cw1
-Section: unknown
-Priority: extra
-Maintainer: user <smm5g11@soton.ac.uk>
+Section: devel
+Priority: optional
+Maintainer: Stanislav Michaylov Michaylov <smm5g11@soton.ac.uk>
 Build-Depends: debhelper (>= 7)
 Standards-Version: 3.8.3
-Homepage: <insert the upstream URL, if relevant>
 
 Package: cw1
 Architecture: all
-Depends: ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: An application for reading RSS feeds
+ A simple application that reads RSS feeds about news articles from BBC and prints out their titles.
