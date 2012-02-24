@@ -16,12 +16,14 @@ cw1-6005-smm5g11 (1.0) unstable; urgency=low
   and my full name, removed the version
   * Modified the debian/control file with corrected name of the package, 
   updated standards-version and php5-cli dependency.
-  * Created a file format in debian/source/ to indicate the package is of format 3.0 (native)
+  * Created a file format in debian/source/ to indicate the package is 
+  of format 3.0 (native)
   * Created a folder named etc in the main dir and moved feeds.conf there.
   * Created a file debian/install to specify that the 3 initial source 
   files (index.php, rss_php.php and feeds.conf) should be included when 
   building the package and their correct installation destinations
-  * Overriden dh_auto_config in the debian/rules file with correct prefix and sysconfig options
+  * Overridden dh_auto_config in the debian/rules file with correct 
+  prefix and sysconfig options
   * Updated the path to feeds.conf in the index.php source
   * Created a debian/cw1-6005-smm5g11.menu file to help for 
   better integration of the package after installation
@@ -44,11 +46,12 @@ cw1-6005-smm5g11 (1.0) unstable; urgency=low
   * Created a new shell script for calling the application from the 
   Gnome Applications menu, which is the same as the previous one, 
   but keeps the terminal window open. Its name is bbc_rss_from_menu.
-  * Modified the debian/install file to include the bin/bbc_rss_from_menu script.
+  * Modified the debian/install file to include the 
+  bin/bbc_rss_from_menu script.
   * Created a third manpage called bbc_rss_from_menu.1 that has the 
   same info as the other two. This was done to avoid the lintian warning, 
   although it could be escaped in other ways.
-  * Overriden dh_perl and dh_usrlocal to be skipped in debian/rules file. 
+  * Overridden dh_perl and dh_usrlocal to be skipped in debian/rules file. 
   They are not necessary.
   * Added an entry about the license of the downloaded icon in debian/copyright
   * Removed the debian/docs file, it's not needed.
