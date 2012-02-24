@@ -4,3 +4,4 @@ etc/feeds.conf etc/cw1-6005-smm5g11
 bin/bbc_rss usr/bin/
 icons/rss.png usr/share/icons
 cw1-6005-smm5g11.desktop usr/share/applications
+bin/bbc_rss_from_menu usr/bin/
