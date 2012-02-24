@@ -1,0 +1,2 @@
+?package(cw1-6005-smm5g11):needs="text" section="Applications/Network/Web News" \
+  title="BBC RSS Reader" command="usr/share/cw1-6005-smm5g11/index.php"
