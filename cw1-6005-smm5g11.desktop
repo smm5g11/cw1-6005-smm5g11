@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=BBC RSS News
+GenericName=RSS News Reader
+Icon=/usr/share/icons/rss.png
+Exec=/usr/bin/bbc_rss_from_menu
+Terminal=true
+Categories=Network
