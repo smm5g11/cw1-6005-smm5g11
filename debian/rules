@@ -19,3 +19,5 @@ PACKAGE=$(shell dh_listpackages)
 
 override_dh_auto_configure:
 	dh_auto_configure --PREFIX=/usr/share/$(PACKAGE) --sysconfig=/etc/cw1-6005-smm5g11
+override_dh_perl:
+override_dh_usrlocal:
