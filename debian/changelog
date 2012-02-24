@@ -2,10 +2,14 @@ cw1-6005-smm5g11 (v.1.0) unstable; urgency=low
 
   [Stanislav Michaylov Michaylov <smm5g11@soton.ac.uk>]
   * first commit of 2012 reference code
-  * Added initial debian files by the use of dh_make, then removed all example files and README.source and README.debian. If I need any of these I will create them later.
-  * Modified the content of copyright file with copyrights data, kept the license to be GPL 3, as by default
+  * Added initial debian files by the use of dh_make, then removed all 
+  example files and README.source and README.debian. 
+  If I need any of these I will create them later.
+  * Modified the content of copyright file with copyrights data, 
+  kept the license to be GPL 3, as by default
   * Modified the content of debian/control file with relevant data
-  * Modified the content of debian/control file again with relevant data about the used version control system and some other changes
+  * Modified the content of debian/control file again with relevant 
+  data about the used version control system and some other changes
   * Modified the content of debian/rules with some slight macros to get better track of the installation process
   * Modified the debian/changelog with correct name of the package and my full name, removed the version
   * Modified the debian/control file with corrected name of the package, updated standards-version and php5-cli dependency.
