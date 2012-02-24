@@ -1,0 +1,16 @@
+The Debian Package cw1-6005-smm5g11
+----------------------------
+
+The purpose of this application is to read rss feeds of the titles of 
+news articles from the BBC website and display them in a terminal window.
+The software was created by David Tarrant <dt2@ecs.soton.ac.uk>, I have just packaged it.
+
+As part of the packaging I have created two almost identical bash shell scripts:
+
+bbc_rss can be called as a shell command from anywhere in an opened terminal.
+
+Another option is to call the application from Gnome Applications menu under Internet->BBC RSS News.
+For this purpose serves the other script bbc_rss_from_menu, which keeps the terminal running after the
+feeds are displayed. Of course, there is also an icon and .desktop file.
+
+ -- Stanislav Michaylov Michaylov <smm5g11@soton.ac.uk>  Fri, 24 Feb 2012 12:26:49 -0500
