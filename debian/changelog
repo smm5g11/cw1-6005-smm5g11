@@ -1,5 +1,33 @@
-cw1-6005-smm5g11 (1.0) unstable; urgency=low
+cw1-6005-smm5g11 (v.1.0) unstable; urgency=low
 
-  * Initial Release.
+  [Stanislav Michaylov Michaylov <smm5g11@soton.ac.uk>]
+  * first commit of 2012 reference code
+  * Added initial debian files by the use of dh_make, then removed all example files and README.source and README.debian. If I need any of these I will create them later.
+  * Modified the content of copyright file with copyrights data, kept the license to be GPL 3, as by default
+  * Modified the content of debian/control file with relevant data
+  * Modified the content of debian/control file again with relevant data about the used version control system and some other changes
+  * Modified the content of debian/rules with some slight macros to get better track of the installation process
+  * Modified the debian/changelog with correct name of the package and my full name, removed the version
+  * Modified the debian/control file with corrected name of the package, updated standards-version and php5-cli dependency.
+  * Created a file format in debian/source/ to indicate the package is of format 3.0 (native)
+  * Created a folder named etc in the main dir and moved feeds.conf there.
+  * Created a file debian/install to specify that the 3 initial source files (index.php, rss_php.php and feeds.conf) should be included when building the package and their correct installation destinations
+  * Overriden dh_auto_config in the debian/rules file with correct prefix and sysconfig options
+  * Updated the path to feeds.conf in the index.php source
+  * Created a debian/cw1-6005-smm5g11.menu file to help for better integration of the package after installation
+  * Created a bin directory and a bash shell script 'bbc_rss' to call index.php after installation
+  * Added an entry in debian/install for bin/bbc_rss
+  * Created debian/man folder, containing manpages cw1-6005-smm5g11.1 and bbc_rss.1, which are practically the same
+  * Created debian/cw1-6005-smm5g11.manpages file to list all the manpages to be included by packaging
+  * Realised, that cw1-6005-smm5g11.menu file has no relation to the Applications menu in Ubuntu. Created a cw1-6005-smm5g11.desktop file to represent the application in the Gnome Applications menu. The old .menu file will stay in the package, although I couldn't understand exactly its function.
+  * Added an icon for the application, downloaded from www.veryicon.com, in an /icons folder
+  * Modified the debian/install file to include the icon and .desktop file with their appropriate destinations.
+  * Created a new shell script for calling the application from the Gnome Applications menu, which is the same as the previous one, but keeps the terminal window open. Its name is bbc_rss_from_menu.
+  * Modified the debian/install file to include the bin/bbc_rss_from_menu script.
+  * Created a third manpage called bbc_rss_from_menu.1 that has the same info as the other two. This was done to avoid the lintian warning, although it could be escaped in other ways.
+  * Overriden dh_perl and dh_usrlocal to be skipped in debian/rules file. They are not necessary.
+  * Added an entry about the license of the downloaded icon in debian/copyright
+  * Removed the debian/docs file, it's not needed.
 
- -- Stanislav Michaylov Michaylov <smm5g11@soton.ac.uk>  Fri, 17 Feb 2012 15:26:49 -0500
+ -- Stanislav Michaylov Michaylov <smm5g11@soton.ac.uk>  Fri, 24 Feb 2012 01:35:36 +0000
+
