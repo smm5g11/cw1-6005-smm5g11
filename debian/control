@@ -1,15 +1,15 @@
-Source: cw1
+Source: cw1-6005-smm5g11
 Section: net
 Priority: optional
 Maintainer: Stanislav Michaylov Michaylov <smm5g11@soton.ac.uk>
 Build-Depends: debhelper (>= 7.0.50~)
-Standards-Version: 3.8.3
+Standards-Version: 3.8.4.0
 Vcs-Git: git://github.com/smm5g11/cw1-6005-smm5g11.git
 Vcs-Browser: https://github.com/smm5g11/cw1-6005-smm5g11
 
-Package: cw1
+Package: cw1-6005-smm5g11
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, php5-cli
 Description: An application for reading RSS feeds
  A simple application that reads RSS feeds about news articles
  from BBC and prints out their titles.
