@@ -1,3 +1,4 @@
 index.php usr/share/cw1-6005-smm5g11
 rss_php.php usr/share/cw1-6005-smm5g11
 etc/feeds.conf etc/cw1-6005-smm5g11
+bin/bbc_rss usr/bin/
